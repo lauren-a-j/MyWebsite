@@ -5,6 +5,15 @@
   box-sizing: border-box; /* Ensures padding and border are included in element's width/height */
 }
 
+/* Defining the color variables */
+:root {
+  --primary-color: #FF5733; /* Color 1 */
+  --secondary-color: #33FF57; /* Color 2 */
+  --accent-color: #3357FF; /* Color 3 */
+  --background-color: #F4F4F4; /* Color 4 */
+  --text-color: #333333; /* Color 5 */
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
