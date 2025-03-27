@@ -1,3 +1,4 @@
+/*This resets the borders of everything. The star means do it to everything. We do this to make sure there are no strange gaps between things*/
 * {
   margin: 0;
   padding: 0;
