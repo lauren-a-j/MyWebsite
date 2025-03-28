@@ -16,8 +16,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: var(--text-color);
-  color: var(--primary-color); 
+  background-color: var(--background-color1);
+  color: var(--text-color); 
   line-height: 1.6;
   margin: 20px; /* Adds space around the entire page */
 }
@@ -27,6 +27,7 @@ body {
     max-width: 1200px; /* Set maximum width for larger screens */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding inside the container */
+    background-color: var(--background-color2)
 }
 
 /* Headings styling */
@@ -52,16 +53,16 @@ a:hover {
 
 /* Basic layout for a header */
 header {
-    background-color: #333; /* Dark background for header */
-    color: white; /* White text color */
+    background-color: var(--primary-color);
+    color: var(--text-color);
     padding: 10px 0; /* Padding around header */
     text-align: center; /* Center text */
 }
 
 /* Basic layout for a footer */
 footer {
-    background-color: #333; /* Dark background for footer */
-    color: white; /* White text color */
+    background-color: var(--secondary-color);
+    color: var(--text-color);
     padding: 10px 0; /* Padding around footer */
     text-align: center; /* Center text */
     position: fixed; /* Fixed footer at the bottom */
