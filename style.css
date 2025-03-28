@@ -7,16 +7,16 @@
 
 /* Defining the color variables */
 :root {
-  --primary-color: #FF5733; /* Color 1 */
-  --secondary-color: #33FF57; /* Color 2 */
-  --accent-color: #3357FF; /* Color 3 */
-  --background-color: #F4F4F4; /* Color 4 */
-  --text-color: #333333; /* Color 5 */
+  --primary-color: #717ec3; /* Blue */
+  --secondary-color: #643c63; /* Dark Pinky Purple */
+  --background-color1: #fff5fe; /* Light Pink */
+  --background-color2: #fffcff; /* Off-white */
+  --text-color: #0b0033; /* Navy Blue */
 }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-color: --background-color1;
   color: #333; 
   line-height: 1.6;
   margin: 20px; /* Adds space around the entire page */
