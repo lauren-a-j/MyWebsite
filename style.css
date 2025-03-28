@@ -17,7 +17,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: --background-color1;
-  color: #333; 
+  color: --text-color; 
   line-height: 1.6;
   margin: 20px; /* Adds space around the entire page */
 }
