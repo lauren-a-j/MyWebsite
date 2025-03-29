@@ -27,7 +27,7 @@ body {
     max-width: 1200px; /* Set maximum width for larger screens */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding inside the container */
-    border-radius: 15px; /* Rounds the corners of the box
+    border-radius: 15px; /* Rounds the corners of the box */
     background-color: white;
 }
 
@@ -70,4 +70,14 @@ footer {
     width: 100%; /* Full width */
     bottom: 0; /* Position at the bottom */
 }
+
+.tiktok-link {
+  display: inline-block; /* Make the link behave like a block element, allowing the logo to fit */
+}
+
+.tiktok-logo {
+  width: 100px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
