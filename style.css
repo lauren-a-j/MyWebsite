@@ -27,7 +27,8 @@ body {
     max-width: 1200px; /* Set maximum width for larger screens */
     margin: 0 auto; /* Center the container */
     padding: 20px; /* Add padding inside the container */
-    background-color: var(--background-color2)
+    border-radius: 15px; /* Rounds the corners of the box
+    background-color: white;
 }
 
 /* Headings styling */
