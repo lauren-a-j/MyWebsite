@@ -12,10 +12,12 @@
   --background-color1: #fff5fe; /* Light Pink */
   --background-color2: #fffcff; /* Off-white */
   --text-color: #0b0033; /* Navy Blue */
+  --body-font-family: Verdana, sans-serif;
+  --header-font-family: Baskerville, serif;
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--body-font-family);
   background-color: var(--background-color1);
   color: var(--text-color); 
   line-height: 1.6;
@@ -35,6 +37,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px; /* Space below headings */
     color: var(--text-color);
+    font-family: var(--heading-font-family);
 }
 
 /* Paragraph styling */
