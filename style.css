@@ -72,6 +72,7 @@ footer {
     position: fixed; /* Fixed footer at the bottom */
     width: 100%; /* Full width */
     bottom: 0; /* Position at the bottom */
+    padding: 10px 10px;
 }
 
 .tiktok-link {
