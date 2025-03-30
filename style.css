@@ -16,6 +16,14 @@
   --header-font-family: baskerville, serif;
 }
 
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
 body {
   font-family: var(--body-font-family);
   background-color: var(--background-color1);
