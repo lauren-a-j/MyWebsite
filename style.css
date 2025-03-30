@@ -76,7 +76,16 @@ footer {
 }
 
 .tiktok-logo {
-  width: 100px; /* Adjust the size of the logo */
+  width: 30px; /* Adjust the size of the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.linkedin-link {
+  display: inline-block; /* Make the link behave like a block element, allowing the logo to fit */
+}
+
+.linkedin-logo {
+  width: 30px; /* Adjust the size of the logo */
   height: auto; /* Maintain aspect ratio */
 }
 
