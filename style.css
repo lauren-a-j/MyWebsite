@@ -12,8 +12,8 @@
   --background-color1: #fff5fe; /* Light Pink */
   --background-color2: #fffcff; /* Off-white */
   --text-color: #0b0033; /* Navy Blue */
-  --body-font-family: Verdana, sans-serif;
-  --header-font-family: Baskerville, serif;
+  --body-font-family: verdana, sans-serif;
+  --header-font-family: baskerville, serif;
 }
 
 body {
