@@ -31,7 +31,7 @@ body {
     padding: 20px; /* Add padding inside the container */
     border-radius: 15px; /* Rounds the corners of the box */
     background-color: var(--background-color2);
-    box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Headings styling */
